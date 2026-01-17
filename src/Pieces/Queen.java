@@ -19,7 +19,7 @@ public class Queen extends Pieces {
             }
             return true;
         }
-        // Yatay Hareket
+
         if (oldX == newX) {
             for (int i = Math.min(oldY, newY) + 1; i < Math.max(oldY, newY); i++) {
                 if (board[newX][i].getComponentCount() > 0) return false;
