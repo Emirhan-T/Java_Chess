@@ -1,6 +1,4 @@
-![Oyun Ekran Görüntüsü](res/ScreenShot1.png)
-![Oyun Ekran Görüntüsü](res/ScreenShot2.png)
-![Oyun Ekran Görüntüsü](res/ScreenShot3.png)
+
 **Java Satranç Oyunu**
 
 Bu proje, herhangi bir hazır oyun motoru veya üçüncü parti oyun kütüphanesi kullanılmadan, tamamen Java programlama dili ve JPanel sınıfı temel alınarak geliştirilmiş nesne yönelimli (OOP) bir satranç motorudur. Projenin temel amacı, satranç kurallarının matematiksel algoritmalarla işlendiği, sağlam bir mimariye sahip bir oyun geliştirmektir.
@@ -97,3 +95,9 @@ To run the project, it is sufficient to run the main class. Ensure that the imag
 Developer Notes
 
 This project was created to demonstrate the development of object-oriented design and custom development with JPanel in Java. The code structure provides a suitable infrastructure for Artificial Intelligence (AI) modules that may be added in the future.
+
+
+
+![Oyun Ekran Görüntüsü](res/ScreenShot1.png)
+![Oyun Ekran Görüntüsü](res/ScreenShot2.png)
+![Oyun Ekran Görüntüsü](res/ScreenShot3.png)
