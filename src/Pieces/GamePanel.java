@@ -204,18 +204,14 @@ public class GamePanel extends JPanel {
                                 }
                                 String nextColor = turnWhite ? "White" : "Black";
 
-                                // Eğer sıradaki oyuncunun yapacak hamlesi yoksa
                                 if(gameOver(nextColor)){
                                     if(isKingUnderAttack(nextColor)){
-                                        JOptionPane.showMessageDialog(null, "ŞAH MAT! Kazanan: " + piece.color);
+                                        JOptionPane.showMessageDialog(null, "Winner:" + piece.color);
                                     }
                                     else {
-                                        JOptionPane.showMessageDialog(null, "PAT! (Berabere)");
+                                        JOptionPane.showMessageDialog(null, "Drawn");
                                     }
-                                    // Oyunu dondurmak için seçimi kapatıyoruz
                                     Select = true;
-                                    // (Select=true yaparsak kullanıcı başka taşa tıklayamaz hale gelir,
-                                    // tabii daha şık bir "restart" mantığı da kurulabilir)
                                 }
                             }
                         }else{
